@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Gaya Umum */
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+/* Bagian Hero */
+#hero {
+    height: 720px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.hero-name {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0.5rem 0 1rem;
+}
+
+.hero-right img {
+    width: 90%;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+}
+
+/* Bagian Tentang */
+#tentang {
+    background-color: #f5f5f5;
+    padding: 6rem 0;
+}
+
+/* Bagian Layanan */
+#layanan {
+    background-color: #fff;
+    padding: 6rem 0;
+}
+
+.services .section-title {
+    text-align: center;
+}
+
+.service {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: #f0f0f0;
+    border-radius: 0.7rem;
+}
+
+.service h4 {
+    margin: 1.5rem 0;
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+.service p {
+text-align: left;
+}
+
+.service-icon img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    max-height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Gaya Bagian Artikel */
+#artikel {
+    background-color: #fff;
+    padding: 6rem 0;
+}
+
+
+.artikel-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.artikel {
+    width: calc(33.33% - 1rem);
+    padding: 1.5rem;
+    background: #f0f0f0;
+    border-radius: 0.7rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.artikel h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0; /* Menambahkan margin atas */
+}
+
+.artikel p {
+    color: #555;
+    margin-bottom: 1rem; /* Menambahkan margin bawah */
+}
+
+
+.artikel a {
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    margin-top: 1rem;
+}
+
+.artikel a:hover {
+    text-decoration: underline;
+}
+
+
+/* Bagian Kontak */
+#kontak {
+    background-color: #f5f5f5;
+    padding: 6rem 0;
+}
+
+.contact-form {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.section-title {
+    margin: 1rem 0 4rem;
+    font-size: 2rem;
+}
+
+.pre-title {
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color: #656d72;
+    position: relative;
+    padding-left: 40px;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.pre-title::before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #d9d9d9;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 50%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
